@@ -1,4 +1,4 @@
-# Simple-Standalone-2D-Vector-class-C-
+# Simple-Standalone-2D-Vector-class-C++
 ## A lightweight standalone 2D vector class written in C++ for use in small projects/game dev
 
 ## Features:
