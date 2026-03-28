@@ -54,3 +54,6 @@ class Vec2 {
 inline Vec2 operator*(float f, const Vec2& v) {
     return {v.x * f, v.y * f};
 }
+inline Vec2 operator/(float f, const Vec2& v) {
+  return {f / v.x, f / v.y};
+}
