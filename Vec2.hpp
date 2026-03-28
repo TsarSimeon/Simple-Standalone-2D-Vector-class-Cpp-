@@ -50,6 +50,9 @@ class Vec2 {
     if (len < 1e-6f) return {0.0f, 0.0f};
     return  {x/len, y/len};
   }
+  inline Vec2 abs() const {
+    return {std::abs(x), std::abs(y)};
+  }
 };
 inline Vec2 operator*(float f, const Vec2& v) {
     return {v.x * f, v.y * f};
