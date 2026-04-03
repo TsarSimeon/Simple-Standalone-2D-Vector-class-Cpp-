@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SIMPLE_VEC_2_H
+#define SIMPLE_VEC_2_H
 #include <cmath>
 
 class Vec2 {
@@ -60,3 +61,4 @@ inline Vec2 operator*(float f, const Vec2& v) {
 inline Vec2 operator/(float f, const Vec2& v) {
   return {f / v.x, f / v.y};
 }
+#endif
