@@ -1,6 +1,7 @@
 #ifndef SIMPLE_VEC_2_H
 #define SIMPLE_VEC_2_H
 #include <cmath>
+#inclide <ostream>
 
 class Vec2 {
   public:
@@ -60,5 +61,8 @@ inline Vec2 operator*(float f, const Vec2& v) {
 }
 inline Vec2 operator/(float f, const Vec2& v) {
   return {f / v.x, f / v.y};
+}
+std::ostream& operator<<(std::ostream& os, const Vec2& v) {
+  return os << "{ " << v.x << " | " << v.y << " }";
 }
 #endif
