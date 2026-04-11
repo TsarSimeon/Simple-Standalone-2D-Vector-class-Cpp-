@@ -14,7 +14,7 @@
 ### #include "Vec2.hpp"
 
 ## How to build:
-### No need to build it's header-only file
+### No need to build it's header-only
 
 ## Linking:
 ### Automatic as long as the compiler knows where the header is (e.g. via include path)
