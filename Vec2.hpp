@@ -1,7 +1,7 @@
 #ifndef SIMPLE_VEC_2_H
 #define SIMPLE_VEC_2_H
 #include <cmath>
-#inclide <ostream>
+#include <ostream>
 
 class Vec2 {
   public:
